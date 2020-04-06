@@ -1,12 +1,12 @@
 import React from 'react';
 import { Provider } from 'react-redux';
-import store from './store/store';
 import {
   BrowserRouter as Router,
   Switch,
   Redirect,
   Route,
 } from 'react-router-dom';
+import store from './store/store';
 
 import './App.css';
 import Add from './components/Add';
